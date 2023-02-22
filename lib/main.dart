@@ -25,7 +25,7 @@ class _MyAppState extends State<MyApp> {
   TextEditingController phoneNumController = TextEditingController();
 
   void testCallKit() {
-    var sipConfiguration = SipConfigurationBuilder(extension: "09643207254", domain: "59.152.98.66:5060", password: "I9qgj1L4OFyjHtgW")
+    var sipConfiguration = SipConfigurationBuilder(extension: "extension", domain: "domain", password: "password")
         .setKeepAlive(true)
         .setPort(5060)
         .setTransport(TransportType.Udp)
